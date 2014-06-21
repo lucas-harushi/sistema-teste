@@ -1,4 +1,4 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 #include<locale.h>
 #include"007 - Funções Sistema de avião.c"
 #include<stdlib.h>
@@ -131,4 +131,6 @@ int main () {
         else exit(0);
     }
     if(Escolha > 0) goto Inicio;
+
+ printf("Voce e viado cara '-'");
 }
